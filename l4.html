@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>l2 page</title>
+        <style>
+             ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  background-color: #f1f1f1;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+#section {
+    width:900px;
+    float:left;
+    padding:10px;        
+}
+p{
+  font-size: 25px;
+  text-align: justify;
+}
+h1{
+  color: #04AA6D;
+}
+.code{
+  width: 800px;
+  height: 200px;
+  border: 0;
+  background-color: #000;
+  color: #f1f1f1;
+  padding: 5px 5px;
+  border-radius: 10px;
+}
+.code1{
+  width: 800px;
+  height: 50px;
+  border: 0;
+  background-color: #000;
+  color: #f1f1f1;
+  padding: 5px 5px;
+  border-radius: 10px;
+}
+.code2{
+    width: 800px;
+  height: 50px;
+  border: 0;
+  background-color: lightgray;
+  color: black;
+  padding: 5px 5px;
+  border-radius: 10px;
+}
+.code3{
+  width: 800px;
+  height: 150px;
+  border: 0;
+  background-color: lightgray;
+  color: black;
+  padding: 5px 5px;
+  border-radius: 10px;
+}
+.next {
+   background-color: #04AA6D;
+  color: #ffffff;
+  float:right;
+  font-size: 30px;
+  padding :10px 10px;
+}
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a class="active" href="#home">PYTHON BASICS</a></li>
+            <li><a href="#">helloworld program</a></li>
+            <li><a href="#">basic syntax</a></li>
+            <li><a href="#">data types</a></li>
+            <li><a href="#">variable</a></li>
+            <li><a href="#">typecasting</a></li>
+            <li><a href="#">operators</a></li>
+            <li><a href="#">comments</a></li>
+            <li><a href="#">user input</a></li>
+            <li><a href="#">numbers</a></li>
+            <li><a href="#">boolean</a></li>
+            <li><a class="active" href="#home">PYTHON CONTROL STATEMENTS</a></li>
+            <li><a href="#"></a>contol flow</li>
+            <li><a href="#">decition making</a></li>
+            <li><a href="#">if else</a></li>
+            <li><a href="#">match-case statement</a></li>
+            <li><a href="#">for loops</a></li>
+            <li><a href="#">for-else loops</a></li>
+            <li><a href="#">while loop</a></li>
+            <li><a href="#">break statement</a></li>
+            <li><a href="#">continue statement</a></li>
+            <li><a href="#">pass statement</a></li>
+            <li><a class="active" href="#home">PYTHON FUNCTIONS & MODULES</a></li>
+            <li><a href="#">functions</a></li>
+            <li><a href="#">default arguments</a></li>
+            <li><a href="#">keyword arguements</a></li>
+            <li><a href="#">positional arguments</a></li>
+            <li><a href="#">positional-only arguments</a></li>
+            <li><a href="#">arbitary arguments</a></li>
+            <li><a href="#">variable scope</a></li>
+            <li><a href="#">sunction annotations</a></li>
+            <li><a href="#">modules</a></li>
+            <li><a href="#"></a>built in functions</li>
+            <li><a class="active" href="#home">PYTHON STRINGS</a></li>
+            <li><a href="#">strings</a></li>
+            <li><a href="#">slicing strings</a></li>
+            <li><a href="#">modify strings</a></li>
+            <li><a href="#">string concatenation</a></li>
+            <li><a href="#">string formatting</a></li>
+            <li><a href="#">escape characters</a></li>
+            <li><a href="#">string methods</a></li>
+            <li><a href="#">string exercises</a></li>
+            <li><a class="active" href="#home">PYTHON LISTS</a></li>
+            <li><a href="#">lists</a></li>
+            <li><a href="#">access list items</a></li>
+            <li><a href="#">change list items</a></li>
+            <li><a href="#">add list items</a></li>
+            <li><a href="#">remove list items</a></li>
+            <li><a href="#">loop lists</a></li>
+            <li><a href="#">list comprehension</a></li>
+            <li><a href="#">sort lists</a></li>
+            <li><a href="#">copy list</a></li>
+            <li><a href="#">join list</a></li>
+            <li><a href="#">list methods</a></li>
+            <li><a href="#">list exercise</a></li>
+            <li><a class="active" href="#home">PYTHON TUPLES</a></li>
+            <li><a href="#">access tuples items</a></li>
+            <li><a href="#"></a>update tuples</li>
+            <li><a href="#"></a>loop tuples</li>
+            <li><a href="#"></a>join tuples</li>
+            <li><a href="#"></a>unpack tuples</li>
+            <li><a href="#"></a>tuple methods</li>
+            <li><a href="#"></a>tuple exercise</li>
+            <li><a class="active" href="#home">PYTHON SETS</a></li>
+            <li><a href="#">sets</a></li>
+            <li><a href="#">access set items</a></li>
+            <li><a href="#">add set items</a></li>
+            <li><a href="#">remove set items</a></li>
+            <li><a href="#">loop sets</a></li>
+            <li><a href="#">join sets</a></li>
+            <li><a href="#">copy sets</a></li>
+            <li><a href="#">set operators</a></li>
+            <li><a href="#">set methods</a></li>
+            <li><a href="#">set exercise</a></li>
+            <li><a class="active" href="#home">PYTHON DICTIONARIES</a></li>
+            <li><a href="#">dictionaries</a></li>
+            <li><a href="#">access dictionary items</a></li>
+            <li><a href="#">change dictionary items</a></li>
+            <li><a href="#">add dictionary items</a></li>
+            <li><a href="#">remove dictionary items</a></li>
+            <li><a href="#">dictionary view objects</a></li>
+            <li><a href="#">loop dictionaries</a></li>
+            <li><a href="#">copy dictionaries</a></li>
+            <li><a href="#">nested dictionaries</a></li>
+            <li><a href="#">dictionary methods</a></li>
+            <li><a href="#">dictionary exercises</a></li>
+            <li><a class="active" href="#home">PYTHON ERRORS & EXCEPTIONS</a></li>
+            <li><a href="#">sytntax errors</a></li>
+            <li><a href="#">exceptions</a></li>
+            <li><a href="#">try-except block</a></li>
+            <li><a href="#">try-finally block</a></li>
+            <li><a href="#">raising exceptions</a></li>
+            <li><a href="#">nested try block</a></li>
+            <li><a href="#">user-defined exceptions</a></li>
+            <li><a href="#">logging</a></li>
+            <li><a href="#">assertions</a></li>
+            <li><a href="#">built-in execptions </a></li>
+            <li><a class="active" href="#home">PYTHON QUESTIONS &ANSWERS  </a></li>
+            <li><a href="#">programming examples</a></li>
+            <li><a href="#">quick guide</a></li>
+            <li><a href="#">useful resources</a></li>
+            <li><a href="#">discussions</a></li>
+          </ul>
+          <div id="section">
+           <center><h1>PYTHON STRINGS</h1></center><hr><br>
+           <P>In Python, a string is an immutable sequence of Unicode characters. Each character has a unique numeric value as per the UNICODE standard. But, the sequence as a whole, doesn't have any numeric value even if all the characters are digits. To differentiate the string from numbers and other identifiers, the sequence of characters is included within single, double or triple quotes in its literal representation. Hence, 1234 is a number (integer) but '1234' is a string.</P>
+            <P>A string in Python is an object of str class. It can be verified with type() function.</P>
+            <p class="code1">var = "Welcome To TutorialsPoint"
+                print (type(var))</p>
+                <p>It will produce the following output −</p>
+                <p class="code2">class 'str'</p>
+                <p class="code">var = '''<br>
+                    Welcome To<br>
+                    Python Tutorial<br>
+                    from TutorialsPoint<br>
+                    '''<br>
+                    print ("var:", var)</p>
+                    <p>It will produce the following output −</p>
+                    <p class="code3">var:<br>
+                        Welcome To<br>
+                        Python Tutorial<br>
+                        from TutorialsPoint</p>
+                        <p class="code">a,b,c = 1,2,"Zara Ali"<br>
+
+                            print (a)<br>
+                            print (b)<br>
+                            print (c)</p>
+                            <p>This produces the following result:</p>
+                        <p class="code3">1<br>
+                            2<br>
+                            Zara Ali</p><hr>
+                            <h2>SLICING STRINGS</h2>
+                            <p>In Python, a string is an ordered sequence of Unicode characters. Each character in the string has a unique index in the sequence. The index starts with 0. First character in the string has its positional index 0. The index keeps incrementing towards the end of string.</p>
+                            <p class="code">var="HELLO PYTHON"<br>
+                                print ("var:",var)<br>
+                                print ("var[3:8]:", var[3:8])<br>
+                                print ("var[-9:-4]:", var[-9:-4])</p>
+                                <p>It will produce the following output −</p>
+                                <p class="code3">var: HELLO PYTHON<br>
+                                    var[3:8]: LO PY<br>
+                                    var[-9:-4]: LO PY</p><hr>
+                                    <h2>MODIFY STRINGS</h2>
+                                    <p>In Python, a string (object of str class) is of immutable type. An immutable object is the one which can be modified in place, one created in the memory. Hence, unlike a list, any character in the sequence cannot be overwritten, nor can we insert or append characters to it unless we use certain string method that returns a new string object.</p>
+                                    <h2>converting a string to a list</h2>
+                                    <p>Since both string and list objects are sequences, they are interconvertible. Hence, if we cast a string object to a list, modify the list either by insert(), append() or remove() methods and convert the list back to a string, to get back the modified version.
+
+                                        We have a string variable s1 with WORD as its value. With list() built-in function, let us convert it to a l1 list object, and insert a character L at index 3. The we use the join() method in str class to concatenate all the characters.</p>
+                                    <p class="code">s1="WORD"<br>
+                                        print ("original string:", s1)<br>
+                                        l1=list(s1)<br>
+                                        l1.insert(3,"L")<br>
+                                        print (l1)<br>
+                                        s1=''.join(l1)<br>
+                                        print ("Modified string:", s1)</p>
+                                        <p>It will produce the following output −</p>
+                                        <p class="code3">original string: WORD<br>
+                                            ['W', 'O', 'R', 'L', 'D']<br>
+                                            Modified string: WORLD</p><hr>
+                                        <h2>STRING CONCATENATION</h2>
+                                        <p>The "+" operator is well-known as an addition operator, returning the sum of two numbers. However, the "+" symbol acts as string concatenation operator in Python. It works with two string operands, and results in the concatenation of the two.
+
+                                            The characters of the string on the right of plus symbol are appended to the string on its left. Result of concatenation is a new string.</p>
+                                        <p class="code">str1="Hello"<br>
+                                            str2="World"<br>
+                                            print ("String 1:",str1)<br>
+                                            print ("String 2:",str2)<br>
+                                            str3=str1+str2<br>
+                                            print("String 3:",str3)</p>
+                                            <p>It will produce the following output −</p>
+                                            <p class="code3">String 1: Hello<br>
+                                                String 2: World<br>
+                                                String 3: HelloWorld</p><hr>
+                                                <h2>STRING FORMATTING</h2>
+                                                <P>String formatting is the process of building a string representation dynamically by inserting the value of numeric expressions in an already existing string. Python's string concatenation operator doesn't accept a non-string operand. Hence, Python offers following string formatting techniques −</P>
+                                                <p>Using % operator for substitution<br>
+
+                                                    Using format() method of str class<br>
+                                                    
+                                                    Using f-string syntax<br>
+                                                    
+                                                    Using String Template class</p><hr>
+                                                    <h2>ESCAPE SEQUENCES</h2>
+                                                    <P>In Python, a string becomes a raw string if it is prefixed with "r" or "R" before the quotation symbols. Hence 'Hello' is a normal string whereas r'Hello' is a raw string.</P>
+                                                    <p class="code">>>> normal="Hello"<br>
+                                                        >>> print (normal)<br>
+                                                        Hello<br>
+                                                        >>> raw=r"Hello"<br>
+                                                        >>> print (raw)<br>
+                                                        Hello</p>
+                                                        <p>The newline character \n is one of the escape sequences identified by Python. Escape sequence invokes an alternative implementation character subsequence to "\". In Python, "\" is used as escape character. Following table shows list of escape sequences.
+
+                                                            Unless an 'r' or 'R' prefix is present, escape sequences in string and bytes literals are interpreted according to rules similar to those used by Standard C. The recognized escape sequences are −</p>
+                                                        <hr>
+                                                        <h2>STRING EXERCISES</h2>
+                                                        <h2>example1</h2>
+                                                        <P>Python program to find number of vowels in a given string.</P>
+                                                        <p class="code">mystr = '10101'<br>
+                                                            def strtoint(mystr):<br>
+                                                               for x in mystr:<br>
+                                                                  if x not in '01': return "Error. String with non-binary characters"<br>
+                                                               num = int(mystr, 2)<br>
+                                                               return num<br>
+                                                            print ("binary:{} integer: {}".format(mystr,strtoint(mystr)))</p>
+                                                         <p>It will produce the following output −</p>
+                                                         <p class="code2">binary:10101 integer: 21</p>
+                                                         <h2>example2</h2>
+                                                         <p>Python program to drop all digits from a string.</p>
+                                                        <p class="code">digits = [str(x) for x in range(10)]<br>
+<                                                            mystr = 'He12llo, Py00th55on!'<br>
+                                                            chars = []<br>
+                                                            for x in mystr:<br>
+                                                               if x not in digits:<br>
+                                                                  chars.append(x)<br>
+                                                            newstr = ''.join(chars)<br>
+                                                            print (newstr)</p>
+                                                            <p>It will produce the following output −</p>
+                                                            <p class="code2">Hello, Python!</p>
+          
+                                                         <a href="l5.html" class="next">NEXT &raquo;</a><br><br><br><br>  
+    </body>
+</html>
